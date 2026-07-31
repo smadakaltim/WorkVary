@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700" />
+      <stop offset="50%" stop-color="#E5B01A" />
+      <stop offset="100%" stop-color="#C49208" />
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#215ECF" />
+      <stop offset="100%" stop-color="#0E3380" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="#111113" />
+  <rect x="4" y="4" width="92" height="92" rx="20" fill="none" stroke="url(#goldGrad)" stroke-width="3" stroke-opacity="0.5" />
+  <!-- Logo Emblem V / W monogram -->
+  <path d="M22 30 L38 70 L50 42 L62 70 L78 30" fill="none" stroke="url(#goldGrad)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="50" cy="26" r="6" fill="#215ECF" />
+</svg>
